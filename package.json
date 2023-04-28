@@ -1,0 +1,28 @@
+{
+  "name": "state-from-localstorage",
+  "version": "1.0.0",
+  "description": "Este pacote oferece uma classe JavaScript para gerenciamento de estado em aplicações web utilizando Local Storage. Com ele, é possível criar um objeto Store que armazena um estado inicial e permite adicionar, atualizar e remover propriedades desse estado. Além disso, o Store possibilita a inscrição de funções de callback que são notificadas sempre que o estado é atualizado, e também permite acessar o estado e a lista de listeners atualmente registrados. Esse pacote é útil para desenvolvedores que desejam gerenciar o estado de suas aplicações web de forma simples e eficiente.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thaciohelmer/state-from-localstorage.git"
+  },
+  "keywords": [
+    "store",
+    "state",
+    "management",
+    "local",
+    "storage",
+    "JavaScript",
+    "package"
+  ],
+  "author": "Thácio Helmer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thaciohelmer/state-from-localstorage/issues"
+  },
+  "homepage": "https://github.com/thaciohelmer/state-from-localstorage#readme"
+}

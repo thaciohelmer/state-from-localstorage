@@ -1,4 +1,5 @@
 # State-from-LocalStorage
+
 npm version
 
 [![Licença: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -11,14 +12,16 @@ Para instalar a biblioteca, basta utilizar o gerenciador de pacotes npm:
 ```js
 npm install state-from-localstorage
 ```
+
 Utilização
 Para utilizar a biblioteca, importe-a em seu projeto e crie uma instância da classe Store com uma chave única para o objeto que deseja armazenar.
 
 ```js
-import { Store } from 'state-from-localstorage';
+import { Store } from "state-from-localstorage";
 
-const myStore = new Store('my-object');
+const myStore = new Store("my-object");
 ```
+
 Você pode então adicionar, atualizar ou remover propriedades do objeto armazenado utilizando os métodos addProperty, updateProperty e removeProperty, respectivamente:
 
 ```js
@@ -41,19 +44,17 @@ Você também pode se inscrever para ser notificado sempre que o estado do objet
 
 ```js
 const myListener = () => {
-  console.log('O estado do objeto foi atualizado!');
-}
+  console.log("O estado do objeto foi atualizado!");
+};
 
 myStore.subscribe(myListener);
 ```
 
 E, se quiser cancelar a inscrição, basta utilizar o método unsubscribe:
 
-
 ```js
 myStore.unsubscribe(myListener);
 ```
 
-
 Licença
-Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](https://github.com/thaciohelmer/state-from-localstorage/blob/main/LICENSE) para mais detalhes.

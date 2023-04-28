@@ -25,15 +25,16 @@ Você pode então adicionar, atualizar ou remover propriedades do objeto armazen
 
 ```js
 // Adicionar uma propriedade ao objeto
-myStore.addProperty('propriedade1', 'valor1');
+myStore.addProperty("propriedade1", "valor1");
 
 // Atualizar o valor de uma propriedade existente
-myStore.updateProperty('propriedade1', 'novo-valor');
+myStore.updateProperty("propriedade1", "novo-valor");
 
 // Remover uma propriedade do objeto
-myStore.removeProperty('propriedade1');
-Para obter o estado atual do objeto, basta utilizar a propriedade state:
+myStore.removeProperty("propriedade1");
 ```
+
+Para obter o estado atual do objeto, basta utilizar a propriedade state:
 
 ```js
 console.log(myStore.state); // {propriedade1: 'novo-valor'}

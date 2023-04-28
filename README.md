@@ -5,14 +5,16 @@
 
 O State-from-LocalStorage é uma biblioteca JavaScript que permite armazenar o estado de um objeto em Local Storage, mantendo-o sincronizado entre as sessões do navegador.
 
-Instalação
+## Instalação
+
 Para instalar a biblioteca, basta utilizar o gerenciador de pacotes npm:
 
 ```js
 npm install state-from-localstorage
 ```
 
-Utilização
+## Utilização
+
 Para utilizar a biblioteca, importe-a em seu projeto e crie uma instância da classe Store com uma chave única para o objeto que deseja armazenar.
 
 ```js
@@ -56,5 +58,6 @@ E, se quiser cancelar a inscrição, basta utilizar o método unsubscribe:
 myStore.unsubscribe(myListener);
 ```
 
-Licença
+## Licença
+
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](https://github.com/thaciohelmer/state-from-localstorage/blob/main/LICENSE) para mais detalhes.

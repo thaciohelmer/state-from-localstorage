@@ -1,6 +1,7 @@
 # State-from-LocalStorage
 npm version
-GitHub license
+
+[![Licença: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 O State-from-LocalStorage é uma biblioteca JavaScript que permite armazenar o estado de um objeto em Local Storage, mantendo-o sincronizado entre as sessões do navegador.
 
